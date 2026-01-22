@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
 👋 I am a **research-leaning machine learning engineer** currently working as a **Data Scientist** at **Ola Electric**, where I build and deploy ML systems for real-world decision-making problems. I enjoy working at the intersection of **theory, experimentation, and production**, especially on problems where mathematical structure informs model design.
@@ -9,6 +9,10 @@ order: 4
 I graduated with a degree in **Mathematics and Computing from IIT (BHU)**. My academic and industry work has centered around **optimization, recommender systems, and modern deep learning**, with a growing focus on **LLMs** and **generative models**.
 
 My long-term goal is to work in applied research roles where I can **translate ideas from papers into robust systems**, while also contributing back through research, writing, and open-source projects.
+
+A concise academic and industry overview is available in my [resume](https://drive.google.com/file/d/1wjdnyFnEAZmIGREyhXG4F6xNiG23BQM0/view?usp=sharing). More details are outlined below.
+
+<!-- https://drive.google.com/file/d/1wjdnyFnEAZmIGREyhXG4F6xNiG23BQM0/view?usp=sharing -->
 
 ---
 

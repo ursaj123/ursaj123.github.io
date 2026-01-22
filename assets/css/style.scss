@@ -1,0 +1,54 @@
+/* Project dropdown styling */
+details.project {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+  transition: background 0.3s ease;
+}
+
+details.project[open] {
+  background: #ffffff;
+}
+
+/* Summary row */
+details.project summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* Remove default arrow */
+details.project summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom arrow */
+details.project summary::before {
+  content: "▸";
+  margin-right: 8px;
+  transition: transform 0.25s ease;
+}
+
+details.project[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Content animation */
+details.project > div {
+  margin-top: 0.75rem;
+  animation: fadeSlide 0.3s ease;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
